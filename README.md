@@ -6,6 +6,8 @@ Simple static starter site for GitHub Pages.
 
 - `index.html` - page structure and content
 - `styles.css` - styling only, no build step
+- `assets/logo-im.svg` - notebook-style SVG logo used in the site header
+- `assets/logo-im-inverted.svg` - alternate blue-tinted notebook-style SVG logo
 
 ## Local preview
 

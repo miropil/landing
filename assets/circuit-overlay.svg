@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" fill="none">
+  <g stroke="#1f5eff" stroke-linecap="round" stroke-linejoin="round">
+    <g opacity="0.32" stroke-width="3">
+      <path d="M1120 74H1306L1338 106H1546" />
+      <path d="M1188 126H1418L1452 92H1576" />
+      <path d="M1084 184H1254L1288 150H1496" />
+      <path d="M1148 236H1368L1400 204H1540" />
+      <path d="M1198 294H1508" />
+      <path d="M1164 348H1362L1396 382H1552" />
+      <path d="M1230 410H1434L1468 444H1578" />
+      <path d="M1280 470H1452L1490 508V780" />
+      <path d="M1446 210V512L1518 584V904" />
+      <path d="M1520 118V298L1580 356V692" />
+      <path d="M54 572V852L122 920V1134" />
+      <path d="M108 626V918L164 972V1134" />
+      <path d="M162 706V986L222 1048H300" />
+      <path d="M214 824V1056L274 1118H402" />
+      <path d="M266 938V1134" />
+      <path d="M332 1012V1134" />
+      <path d="M404 876V1134" />
+      <path d="M474 1092H702" />
+      <path d="M928 1092H1162" />
+    </g>
+    <g opacity="0.18" stroke-width="6">
+      <path d="M1306 74V106" />
+      <path d="M1418 92V126" />
+      <path d="M1254 150V184" />
+      <path d="M1368 204V236" />
+      <path d="M1362 348V382" />
+      <path d="M1434 410V444" />
+      <path d="M122 920H54" />
+      <path d="M164 972H108" />
+      <path d="M222 1048H162" />
+      <path d="M274 1118H214" />
+    </g>
+  </g>
+  <g stroke="#2e88ff" stroke-width="3" opacity="0.44">
+    <circle cx="1120" cy="74" r="10" />
+    <circle cx="1188" cy="126" r="10" />
+    <circle cx="1084" cy="184" r="10" />
+    <circle cx="1148" cy="236" r="10" />
+    <circle cx="1198" cy="294" r="10" />
+    <circle cx="1164" cy="348" r="10" />
+    <circle cx="1230" cy="410" r="10" />
+    <circle cx="1280" cy="470" r="10" />
+    <circle cx="1446" cy="210" r="10" />
+    <circle cx="1520" cy="118" r="10" />
+    <circle cx="1490" cy="780" r="10" />
+    <circle cx="1518" cy="904" r="10" />
+    <circle cx="1580" cy="692" r="10" />
+    <circle cx="54" cy="572" r="10" />
+    <circle cx="108" cy="626" r="10" />
+    <circle cx="162" cy="706" r="10" />
+    <circle cx="214" cy="824" r="10" />
+    <circle cx="266" cy="938" r="10" />
+    <circle cx="332" cy="1012" r="10" />
+    <circle cx="404" cy="876" r="10" />
+  </g>
+</svg>
