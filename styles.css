@@ -3,8 +3,8 @@
   --surface: rgba(10, 25, 51, 0.74);
   --surface-alt: rgba(13, 32, 64, 0.72);
   --surface-accent: #08152b;
-  --text: #f4f8ff;
-  --muted: #b4c2d9;
+  --text: #ffffff;
+  --muted: #d6e3f8;
   --line: rgba(103, 141, 198, 0.34);
   --accent: #1f5eff;
   --accent-soft: rgba(31, 94, 255, 0.18);
@@ -112,7 +112,7 @@ h3 {
 }
 
 .brand-role {
-  color: rgba(228, 237, 251, 0.58);
+  color: rgba(244, 248, 255, 0.82);
   font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -129,7 +129,7 @@ h3 {
 .site-nav {
   display: flex;
   gap: 1.25rem;
-  color: rgba(228, 237, 251, 0.78);
+  color: rgba(244, 248, 255, 0.9);
   font-size: 0.95rem;
 }
 
@@ -323,7 +323,7 @@ h3 {
 
 .connect-panel p,
 .connect-panel .section-label {
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .connect-panel .button-primary {
