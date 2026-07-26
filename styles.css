@@ -4,6 +4,7 @@
   --surface-alt: rgba(13, 32, 64, 0.72);
   --surface-accent: #08152b;
   --text: #ffffff;
+  --body-text: #e6efff;
   --muted: #d6e3f8;
   --line: rgba(103, 141, 198, 0.34);
   --accent: #1f5eff;
@@ -169,7 +170,7 @@ h3 {
 .lead {
   max-width: 46rem;
   font-size: 1.15rem;
-  color: var(--muted);
+  color: var(--body-text);
 }
 
 .hero-actions {
@@ -267,7 +268,7 @@ h3 {
 }
 
 .section p {
-  color: var(--muted);
+  color: var(--body-text);
   font-size: 1.08rem;
   line-height: 1.75;
 }
