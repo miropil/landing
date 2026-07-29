@@ -140,14 +140,21 @@ h3 {
 }
 
 .hero {
-  padding: 5.5rem 0 4rem;
+  padding: 4.75rem 0 4rem;
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.9fr);
-  gap: 2rem;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+  gap: 3rem;
   align-items: center;
+}
+
+.hero-copy {
+  display: grid;
+  align-content: center;
+  gap: 0.6rem;
+  max-width: 35rem;
 }
 
 .eyebrow,
@@ -168,7 +175,7 @@ h3 {
 }
 
 .lead {
-  max-width: 46rem;
+  max-width: 32rem;
   font-size: 1.15rem;
   color: var(--body-text);
 }
@@ -177,7 +184,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.9rem;
-  margin-top: 2rem;
+  margin-top: 1.6rem;
 }
 
 .button {
@@ -216,7 +223,7 @@ h3 {
   background: rgba(9, 25, 49, 0.58);
 }
 
-.hero-panel,
+.portrait-card,
 .card,
 .connect-panel {
   background: var(--surface);
@@ -226,38 +233,50 @@ h3 {
   backdrop-filter: blur(10px);
 }
 
-.hero-panel {
-  display: grid;
-  gap: 1rem;
-  padding: 1.5rem;
+.hero-visual {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.stat {
-  padding: 1rem;
-  border-radius: var(--radius-sm);
-  background: linear-gradient(180deg, rgba(19, 44, 83, 0.92), rgba(10, 24, 49, 0.72));
+.portrait-card {
+  margin: 0;
+  padding: 0.75rem;
+  width: min(100%, 29rem);
+  background: linear-gradient(180deg, rgba(16, 40, 77, 0.86), rgba(10, 24, 49, 0.72));
 }
 
-.stat strong {
+.portrait-image {
   display: block;
-  margin-bottom: 0.35rem;
-  font-size: 1rem;
-}
-
-.stat span {
-  color: var(--muted);
+  width: 100%;
+  aspect-ratio: 4 / 4.7;
+  object-fit: cover;
+  object-position: center 14%;
+  border-radius: calc(var(--radius) - 4px);
 }
 
 .section {
   padding: 4rem 0;
 }
 
-.section-alt {
-  background: rgba(7, 20, 40, 0.2);
-}
-
 .section-heading {
   margin-bottom: 1.75rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(280px, 0.82fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-copy {
+  max-width: 43rem;
+}
+
+.about-cards {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
 }
 
 .section h2 {
@@ -343,6 +362,23 @@ h3 {
   .hero-grid,
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid {
+    gap: 2rem;
+  }
+
+  .hero-copy,
+  .lead {
+    max-width: none;
+  }
+
+  .hero-visual {
+    justify-content: flex-start;
   }
 
   .connect-panel {
